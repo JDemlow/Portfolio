@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevJames Portfolio</title>
+    <!-- Normalize CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS STylesheet Link -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- <div class="logo">
+        <img src="AVIAF_RESALE-AltIcon_300PPI.png" alt="" id="logo" />
+      </div> -->
+      <div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>James Demlow</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="restaurant.jpeg"
+        alt="a picture of james smiling"
+        id="restaurant"
+      />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis in
+            voluptatum officia! Totam laboriosam culpa neque error aliquid
+            aperiam amet esse, eius temporibus hic ipsam. Ut eaque nisi omnis
+            necessitatibus? Tempora consectetur sint laudantium excepturi.
+            Repudiandae, quae debitis qui veniam facere ipsa at deleniti eos
+            minus ratione eveniet. Voluptate, architecto!
+          </p>
+        </div>
+        <!-- close service -->
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia autem
+            consequuntur ipsa voluptatibus saepe repellat dignissimos ut
+            assumenda sequi, laboriosam vitae quod modi laborum soluta nesciunt
+            deleniti inventore! Porro, voluptatibus eaque? Vero eaque ratione
+            quo praesentium reprehenderit facere enim doloribus voluptates
+            quisquam cumque eum maiores, adipisci tempore tempora blanditiis
+            iusto.
+          </p>
+        </div>
+        <!-- close service -->
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis eligendi delectus et modi adipisci recusandae omnis
+            dolores sequi expedita porro facere ipsam nulla corrupti sed iure,
+            dicta blanditiis quisquam dolor repellat quos asperiores suscipit?
+            Repudiandae dicta voluptatem itaque nihil pariatur vitae vero,
+            delectus qui at animi sunt laboriosam officiis vel?
+          </p>
+        </div>
+        <!-- close service -->
+      </div>
+      <!-- close services -->
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Denver based developer
+      </p>
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+          magni suscipit officia tempora ea, illo exercitationem delectus
+          cupiditate sed repellat odit quasi optio veritatis ullam mollitia
+          expedita a deleniti harum! Dolores eaque officia assumenda incidunt
+          quia possimus doloremque nostrum quod, qui aspernatur rerum autem vero
+          ad reprehenderit cupiditate fugiat, iste rem repudiandae. Nisi
+          corporis perspiciatis cumque nam quo sequi a.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+          beatae excepturi nam aspernatur unde optio, placeat ut consequatur
+          nemo hic. Cumque ipsum perferendis vitae placeat nostrum alias
+          dignissimos porro maxime? Error laborum perferendis vitae quos aliquam
+          officia nam architecto? Alias quis sequi, eius harum consequuntur enim
+          amet odit velit! Modi assumenda quas voluptas eligendi culpa, mollitia
+          accusantium unde explicabo recusandae.
+        </p>
+      </div>
+      <img
+        src="mountain.jpeg"
+        alt="a picture of james in front of mountains"
+        class="about-me__img"
+        id="mountain"
+      />
+    </section>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+      <div class="portfolio">
+        <!-- Portfolio Item 01 -->
+        <a href="portfolio_item.html" class="portfolio__item"
+          ><img src="portfolio (7).jpg" alt="" class="portfolio__img"
+        /></a>
+        <!-- Portfolio Item 02 -->
+        <a href="portfolio_item.html" class="portfolio__item"
+          ><img src="portfolio (2).jpg" alt="" class="portfolio__img"
+        /></a>
+        <!-- Portfolio Item 03 -->
+        <a href="portfolio_item.html" class="portfolio__item"
+          ><img src="portfolio (3).jpg" alt="" class="portfolio__img"
+        /></a>
+        <!-- Portfolio Item 04 -->
+        <a href="portfolio_item.html" class="portfolio__item"
+          ><img src="portfolio (5).jpg" alt="" class="portfolio__img"
+        /></a>
+      </div>
+    </section>
+    <footer class="footer">
+      <!-- replace with personal email -->
+      <a href="mailto:hello@james.dev" class="footer__link"
+        >jdemlow@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://twitter.com/james_demlow" class="social-list__link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/JDemlow" class="social-list__link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="http://linkedin.com" class="social-list__link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://codepen.io/" class="social-list__link"
+            ><i class="fa-brands fa-codepen"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
